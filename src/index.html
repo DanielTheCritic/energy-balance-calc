@@ -1,0 +1,35 @@
+<!-- Replace references with CDN. Only have local references as fallback. -->
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+    <title id="title">Energy Resolver</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+</head>
+ <body onload="init();">
+    <h2>Energy Balance - Calculator</h2> 
+    <p>
+        This is used for solving the puzzles in the game Energy Balance.
+        Simply fill out the pattern, and list all the numbers in the puzzle.
+    </p>
+     <div class="container-fluid">
+        <div id="divGrid"></div>
+        </div>
+        <div id="divPanel">
+            <input autocomplete="off" id="txtInput" class="form-control" placeholder="List of numbers. Example: 1,-6,5,9" aria-label="Response">
+        </div>
+        <div id="divWarning" class="alert alert-warning collapse" role="alert">
+
+        </div>
+        <div>
+            <button type="button" class="btn btn-primary" onclick="calc();">Calculate</button>
+            <button type="button" class="btn btn-secondary" onclick="reset();">Reset</button>
+        </div>
+     </div>
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="main.js"></script>
+    <script src="calc.js"></script>
+    <link rel="stylesheet" href="style.css">
+</body>
+</html>

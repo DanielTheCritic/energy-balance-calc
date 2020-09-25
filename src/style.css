@@ -1,0 +1,21 @@
+.grid-cell {
+    width:4.5em;
+    height:3em;
+    font-weight:bold;
+    text-align: center;
+    cursor: pointer;
+    border-color:lightsteelblue;
+}
+
+button.grid-cell:hover {
+    background-color: lightsteelblue;
+}
+
+#txtInput {
+    margin-top:1em;
+    margin-bottom:1em;
+}
+
+body {
+    margin: 1em;
+}
